@@ -10,12 +10,7 @@ myWin = turtle.Screen()     #The graphics window
 commands = input("Please enter a command string: ")
 
 for ch in commands:
-    #perform action indicated by the character
-    if ch == 'S':
-        tess.shape("turtle")
-    elif ch == 'D':
-        tess.shape("dot")
-    elif ch == 'F':            #move forward
+    if ch == 'F':            #move forward
         tess.forward(50)
     elif ch == 'B':
         tess.backward(50)
@@ -23,6 +18,10 @@ for ch in commands:
         tess.left(90)
     elif ch == 'R':          #turn right
         tess.right(90)
+    elif ch == 'S':
+        tess.shape("turtle")
+    elif ch == 'D':
+        tess.shape("dot")
     elif ch == '^':          #lift pen
         tess.penup()
     elif ch == 'v':          #lower pen
