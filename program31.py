@@ -1,7 +1,7 @@
-#Modified by:  !YourNameHere!
-#Email:      !YourEmailHere!
-#A program that uses command strings to control turtle drawing
-
+#Name: Shahriar M Alam
+#Email: Shahriar.alam96@myhunter.cuny.edu
+#Date: March 4, 2020
+#This program prints: Turtle String
 
 import turtle
 
