@@ -3,4 +3,5 @@
 #Date: March 4, 2020
 #This program prints: Hello, Hunter College!!!
 
-print("Hello, World")
+echo "Hello, Hunter College!!!"
+
